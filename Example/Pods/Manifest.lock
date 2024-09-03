@@ -1,0 +1,23 @@
+PODS:
+  - FPhiAuthLocal (0.1.0):
+    - zipzap
+  - zipzap (8.1.1)
+
+DEPENDENCIES:
+  - FPhiAuthLocal (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - zipzap
+
+EXTERNAL SOURCES:
+  FPhiAuthLocal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FPhiAuthLocal: aa07e7feb49425771d126efa9e71acff8faaea45
+  zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
+
+PODFILE CHECKSUM: b8efcf9f552801cdd735927f7cbc36708ce84f90
+
+COCOAPODS: 1.15.2

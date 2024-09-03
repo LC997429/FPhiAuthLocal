@@ -1,0 +1,37 @@
+{
+  "name": "FPhiAuthLocal",
+  "version": "0.1.0",
+  "summary": "A short description of FPhiAuthLocal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LAguirreE/FPhiAuthLocal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LAguirreE": "luisaguirre@facephi.com"
+  },
+  "source": {
+    "git": "https://github.com/LAguirreE/FPhiAuthLocal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "*.{h,m}",
+  "public_header_files": "*.h",
+  "resources": [
+    "lib/fphi-selphi-widget-resources-selphi-live-1.2.zip"
+  ],
+  "preserve_paths": "*.js",
+  "vendored_frameworks": [
+    "lib/FPhiWidgetSelphi.xcframework",
+    "lib/FPhiWidgetCore.xcframework",
+    "lib/FPBExtractoriOS.xcframework"
+  ],
+  "dependencies": {
+    "zipzap": [
+
+    ]
+  }
+}

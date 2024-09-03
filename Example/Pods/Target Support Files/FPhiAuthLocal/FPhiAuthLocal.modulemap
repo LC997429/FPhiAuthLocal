@@ -1,0 +1,6 @@
+framework module FPhiAuthLocal {
+  umbrella header "FPhiAuthLocal-umbrella.h"
+
+  export *
+  module * { export * }
+}

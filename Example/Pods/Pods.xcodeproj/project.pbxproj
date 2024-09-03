@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3A24A00C4039C1C904AF689DE7601399 /* FPhiAuthLocal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 97FF2D6C215A0DF68E9BF0B024C87C74 /* Build configuration list for PBXAggregateTarget "FPhiAuthLocal" */;
+			buildPhases = (
+				14BC2E32CDA38D475302D87AD538327B /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				A6F855C5EE1BA20D2356C1E0DE9346DD /* PBXTargetDependency */,
+			);
+			name = FPhiAuthLocal;
+			productName = FPhiAuthLocal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07E5EA0F0C82F28C93A61EBFE6D9F78F /* ZZStoreOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C92CEF6D781A09E51AE264D729463D /* ZZStoreOutputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		134BCFA51C6855E0BA2B76F299A62C1C /* ZZDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A8E3773B8F26A8B2A987146609FCEB /* ZZDataChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14C8EFB1594FCF91B6CD6AA3C69439AD /* ZZFileChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D02B560CB6CAC16FE940D4B49668B4 /* ZZFileChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18BC2CBD309671544EE3E8F038EAAACE /* ZZNewArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = AFFD5739A607570B8F1FFF91D0A7E870 /* ZZNewArchiveEntryWriter.mm */; };
+		2DB98023CA345C4E06A3302BBF42428E /* ZZAESDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 05D271458CF1B41D200EAFE3272F37E8 /* ZZAESDecryptInputStream.mm */; };
+		2F29A18F10E81B8AAE397C604C4EA798 /* zipzap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2088E81EB7378FCAC263131179124D /* zipzap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31EFB283DEAC295A12680DC2E24FDBC8 /* ZZArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 30F4E18D5C83634AFD87417E2E672445 /* ZZArchive.mm */; };
+		368EB28C7C70E24F11D92A5F7F44CA4F /* ZZDataChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806AB78D61D698D9476744084AA5310 /* ZZDataChannelOutput.m */; };
+		38178F3F4BB06D965125AD8A4AFB7CEA /* ZZOldArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FF0616987226E42BA2175ADCF7EACC /* ZZOldArchiveEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39ECBCA9B3935A654F6F34A3C1894EE9 /* Pods-FPhiAuthLocal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4551315D1711F5DB8993413954C1251F /* Pods-FPhiAuthLocal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C90508AE78C6500593609B4D5DD26B /* ZZArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = D64DF1E0407BA2B1BCF8B4DC02EA9505 /* ZZArchiveEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF4D7AF02A142EF2457034AF78A5642 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AD885D3D57E81A6E96E0E72504B6C8 /* ImageIO.framework */; };
+		4BE35C5FCF37B2A372DF54C6D5C46103 /* ZZFileChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = D2250264EDB22E50A3617C69F7F3ECFF /* ZZFileChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FE883F062AD3BCDEDBC71F08E678D90 /* ZZDataChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C368A47A2691729D2BB03FDD3347662 /* ZZDataChannel.m */; };
+		5450BA290AE6CE171C3AE189901B44CA /* ZZHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 4847DE30D942DAECFED4D5AEC02E3A69 /* ZZHeaders.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		633F2F1EA6DE100F624FF25381577133 /* ZZOldArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC780A65FD2324A5F6D911433E47C6 /* ZZOldArchiveEntry.mm */; };
+		653AD3B589BB561624E96328308BEE6A /* ZZInflateInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E23582BF5E538433E7352C38D40D1B /* ZZInflateInputStream.m */; };
+		6780D127C5448673A60BADE53B2C841F /* ZZDeflateOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 845169974EF2E7BC52728E9D60AF7A1F /* ZZDeflateOutputStream.m */; };
+		729DB51239CA4B99ECB03DB1EF2B8556 /* zipzap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0453360306F15D0D30543333E1E2861 /* zipzap-dummy.m */; };
+		7490BFE19F996C5687913014040B7929 /* ZZFileChannelOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = EE45659F59DB960E4C2F368D3F1977DB /* ZZFileChannelOutput.m */; };
+		74E16FC06876EA8CFEBADBEE2A2EF818 /* ZZAESDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E75C6ABCC88164A882896DD63A3D017 /* ZZAESDecryptInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		757C7C7616F222B6663D9C8129330250 /* ZZDeflateOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F4F13F003FFB174F076357302A126F /* ZZDeflateOutputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81C2216A52D7383A0DF591BC99FA3749 /* ZZStandardCryptoEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9E1047AD48F200357937EB679F805 /* ZZStandardCryptoEngine.cpp */; };
+		84657E91A35D89A4307E2A8E419637A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */; };
+		8515751C1F43D927CDBFA7D2B5FB611B /* Pods-FPhiAuthLocal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B554B64D38E4C65B8E02935809D25997 /* Pods-FPhiAuthLocal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866BF855BD3B67E221B88C1212659743 /* ZZConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C11905F038EC641E1BE7957988347572 /* ZZConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892C03C12C454DA478D151E38BA20C87 /* ZZDataChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C45A9B92112358E0F3D87594AD5F8219 /* ZZDataChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C8244376E4AB75A0149DFCCE8097AC1 /* ZZStandardDecryptInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC8C453AE79CFE77894774582848937 /* ZZStandardDecryptInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94CEE24CD7B1B8BC12AE4D2DB7106459 /* ZZStoreOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C24FFA5270637959878784D56D7C862 /* ZZStoreOutputStream.m */; };
+		965365073853894AEF58F3AE6E1D2E25 /* ZZNewArchiveEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA97F9BF17063498D107E14B286593 /* ZZNewArchiveEntry.mm */; };
+		96F96B9DC4C5907A52F95B1B4F292026 /* ZZStandardCryptoEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 016434E4899CCB8E2B9D4A83E9FD1CCD /* ZZStandardCryptoEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A339434092638A29554E3BCE3CE9B249 /* ZZInflateInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D54F1D7DE2C31A8B4E13D59B6A56CB /* ZZInflateInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADE05E1D97230EE5D9698CEBE06D8385 /* ZZOldArchiveEntryWriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = F02D4ABDE367FAA12EBFCC3ED3BDE713 /* ZZOldArchiveEntryWriter.mm */; };
+		B1A56835F9424B4E00AC72F2E0BA55A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */; };
+		B2FCCAA346C1B27D881C96EF5FCA9273 /* ZZArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E48371C780A3FF1A6645F8E82941DB /* ZZArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA25D2C96E74BFF947D476185F29FC9A /* ZZError.h in Headers */ = {isa = PBXBuildFile; fileRef = A530D13ED22E898F25E361E21E9A0DBA /* ZZError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC12A8F62A0476110DA2C752CD6983CF /* ZZDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CE351AFAE63D79059091156967783BD0 /* ZZDataProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C21229C0EDCD4DC53E6D0A5162541273 /* ZipZap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6573E7B168C2724B14462E33570DE5 /* ZipZap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB686D699F79E361E287B3E6F8256198 /* ZZStandardDecryptInputStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = B148D10EDA27B1D7B479443C3A486D42 /* ZZStandardDecryptInputStream.mm */; };
+		D2802915003D9F1E8BAD44FAFF47D5CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */; };
+		D2CC24B6B4884EE877EC2B424FFCD083 /* ZZFileChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3358C60FF2E26197160642AB15D733 /* ZZFileChannel.m */; };
+		D36D273E708EA4FFB4387D9F88C3EB80 /* ZZChannelOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8C01604EC5BC40E20F10806EB55306 /* ZZChannelOutput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D676B660EBAE655D4988B33004058CB1 /* ZZArchiveEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA2767702C2669F9693E4422E3BBDB /* ZZArchiveEntry.m */; };
+		D9B7558A5D9632577ADF6BAACA8FC44E /* ZZError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192680E0437FCE09151000532338446 /* ZZError.m */; };
+		DAB65EE7BE5D1A6724E5D78C06B4D50C /* ZZArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B63B8A1C6FAC3C95FC5F3A6C1F50ED92 /* ZZArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC098BF9E318D62B070FB54929B7B67C /* ZZOldArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F78E09D61040D3441E3337C5ADB2EA5 /* ZZOldArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E66A84AEC220BE8F7872A435130A23ED /* ZZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB27A87F93A342FE18F689C687766F8B /* ZZConstants.m */; };
+		E8DFDE82B4BEA16BADC981F4547EC843 /* ZZNewArchiveEntryWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = EF15F4767C92B5ECD7E8C71540143533 /* ZZNewArchiveEntryWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE78BF4E48D4412653770F08BC447EE5 /* ZZChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = B472C0567D9FADEBC3EC98E3C335EB0A /* ZZChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1A6EF0880E7450E34DD55D769BA390B /* ZZNewArchiveEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 431EA4B6DED3B0A82B3E5EF11BC64251 /* ZZNewArchiveEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC028778F2F0E561E89C14D42C3EDDD8 /* ZZScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = E58F0FD1BB48D33BC5E00CC99D861033 /* ZZScopeGuard.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD8CF7BDD009F817380E84220663FDCC /* Pods-FPhiAuthLocal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF6BB423B7F83C58051D268D43B2E0 /* Pods-FPhiAuthLocal_Example-dummy.m */; };
+		FEDCE563D7B8A61FAE209837B4B8A6B5 /* Pods-FPhiAuthLocal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802B4F095FE3EDE3B101245367E2FA6E /* Pods-FPhiAuthLocal_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		534BEEFBA376B5573B68CA45AFDA649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C8AFA79EF84B5B5B78BEE767301F5A;
+			remoteInfo = zipzap;
+		};
+		789945320D4D6EA6CB7FDC63D14FD1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E5D389679EB8D6632B254234B07C9E;
+			remoteInfo = "Pods-FPhiAuthLocal_Example";
+		};
+		B69326C48EB4D6B069356C5CF87B4CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C8AFA79EF84B5B5B78BEE767301F5A;
+			remoteInfo = zipzap;
+		};
+		CB94224985C837F91824E5A4FBB8FBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A24A00C4039C1C904AF689DE7601399;
+			remoteInfo = FPhiAuthLocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016434E4899CCB8E2B9D4A83E9FD1CCD /* ZZStandardCryptoEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardCryptoEngine.h; path = ZipZap/ZZStandardCryptoEngine.h; sourceTree = "<group>"; };
+		03E23582BF5E538433E7352C38D40D1B /* ZZInflateInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZInflateInputStream.m; path = ZipZap/ZZInflateInputStream.m; sourceTree = "<group>"; };
+		05D271458CF1B41D200EAFE3272F37E8 /* ZZAESDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZAESDecryptInputStream.mm; path = ZipZap/ZZAESDecryptInputStream.mm; sourceTree = "<group>"; };
+		0C368A47A2691729D2BB03FDD3347662 /* ZZDataChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannel.m; path = ZipZap/ZZDataChannel.m; sourceTree = "<group>"; };
+		16954D9B59E985A0B4F0771F465AF755 /* zipzap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zipzap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B437F9D5A4E3C02C262DE23D0C89A20 /* Pods-FPhiAuthLocal_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPhiAuthLocal_Tests-Info.plist"; sourceTree = "<group>"; };
+		22AD885D3D57E81A6E96E0E72504B6C8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		28D4BBE49A6EDA73133ED6288535443C /* Pods-FPhiAuthLocal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPhiAuthLocal_Example.modulemap"; sourceTree = "<group>"; };
+		2A1C068194B5CCAC279E6B670933F2EA /* Pods-FPhiAuthLocal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPhiAuthLocal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C6573E7B168C2724B14462E33570DE5 /* ZipZap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipZap.h; path = ZipZap/ZipZap.h; sourceTree = "<group>"; };
+		30F4E18D5C83634AFD87417E2E672445 /* ZZArchive.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZArchive.mm; path = ZipZap/ZZArchive.mm; sourceTree = "<group>"; };
+		431EA4B6DED3B0A82B3E5EF11BC64251 /* ZZNewArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntry.h; path = ZipZap/ZZNewArchiveEntry.h; sourceTree = "<group>"; };
+		43530FB9011F9911E37EA60A5C9E3E2F /* Pods-FPhiAuthLocal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPhiAuthLocal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4474901C1679B9255E5BC1C0621C0386 /* fphi-selphi-widget-resources-selphi-live-1.2.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = "fphi-selphi-widget-resources-selphi-live-1.2.zip"; path = "lib/fphi-selphi-widget-resources-selphi-live-1.2.zip"; sourceTree = "<group>"; };
+		4551315D1711F5DB8993413954C1251F /* Pods-FPhiAuthLocal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPhiAuthLocal_Example-umbrella.h"; sourceTree = "<group>"; };
+		4847DE30D942DAECFED4D5AEC02E3A69 /* ZZHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZHeaders.h; path = ZipZap/ZZHeaders.h; sourceTree = "<group>"; };
+		4A3358C60FF2E26197160642AB15D733 /* ZZFileChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannel.m; path = ZipZap/ZZFileChannel.m; sourceTree = "<group>"; };
+		4A3C9BC32D0AF49063A7641C9D1C0520 /* FPhiAuthLocal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FPhiAuthLocal-xcframeworks.sh"; sourceTree = "<group>"; };
+		4F78E09D61040D3441E3337C5ADB2EA5 /* ZZOldArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntryWriter.h; path = ZipZap/ZZOldArchiveEntryWriter.h; sourceTree = "<group>"; };
+		4FC502EDE15324F912AC798B1B7C34B0 /* FPhiAuthLocal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FPhiAuthLocal.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		504B2C8F835AEBF1011CD4B454CEDBD7 /* Pods-FPhiAuthLocal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPhiAuthLocal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		53C75644BDEF0350C1CC4EBBB9FA5D83 /* zipzap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zipzap.debug.xcconfig; sourceTree = "<group>"; };
+		55B535FA72DE29FD3824BEE3BDDF07F0 /* FPhiAuthLocal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPhiAuthLocal.release.xcconfig; sourceTree = "<group>"; };
+		57E48371C780A3FF1A6645F8E82941DB /* ZZArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntryWriter.h; path = ZipZap/ZZArchiveEntryWriter.h; sourceTree = "<group>"; };
+		587B1ED468EF32B766B6ADE144C6EA54 /* FPBExtractoriOS.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FPBExtractoriOS.xcframework; path = lib/FPBExtractoriOS.xcframework; sourceTree = "<group>"; };
+		672D1D3CA5DD9EA6715E20FFA6D239BC /* Pods-FPhiAuthLocal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPhiAuthLocal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67667989A2AB83313655AAE0E372D28C /* Pods-FPhiAuthLocal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPhiAuthLocal_Tests.modulemap"; sourceTree = "<group>"; };
+		6806AB78D61D698D9476744084AA5310 /* ZZDataChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDataChannelOutput.m; path = ZipZap/ZZDataChannelOutput.m; sourceTree = "<group>"; };
+		6AAC780A65FD2324A5F6D911433E47C6 /* ZZOldArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntry.mm; path = ZipZap/ZZOldArchiveEntry.mm; sourceTree = "<group>"; };
+		6C24FFA5270637959878784D56D7C862 /* ZZStoreOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZStoreOutputStream.m; path = ZipZap/ZZStoreOutputStream.m; sourceTree = "<group>"; };
+		6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78C92CEF6D781A09E51AE264D729463D /* ZZStoreOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStoreOutputStream.h; path = ZipZap/ZZStoreOutputStream.h; sourceTree = "<group>"; };
+		802B4F095FE3EDE3B101245367E2FA6E /* Pods-FPhiAuthLocal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPhiAuthLocal_Tests-dummy.m"; sourceTree = "<group>"; };
+		845169974EF2E7BC52728E9D60AF7A1F /* ZZDeflateOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZDeflateOutputStream.m; path = ZipZap/ZZDeflateOutputStream.m; sourceTree = "<group>"; };
+		846AF34D902DE47C16ACEE5534C1D682 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		86A8E3773B8F26A8B2A987146609FCEB /* ZZDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannel.h; path = ZipZap/ZZDataChannel.h; sourceTree = "<group>"; };
+		8816ADCDB1FF7DF5826E54DBD651BDD0 /* FPhiWidgetSelphi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FPhiWidgetSelphi.xcframework; path = lib/FPhiWidgetSelphi.xcframework; sourceTree = "<group>"; };
+		8A763CBFF144384EB725C211B45C5BE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8BFA97F9BF17063498D107E14B286593 /* ZZNewArchiveEntry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntry.mm; path = ZipZap/ZZNewArchiveEntry.mm; sourceTree = "<group>"; };
+		8CB9E1047AD48F200357937EB679F805 /* ZZStandardCryptoEngine.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ZZStandardCryptoEngine.cpp; path = ZipZap/ZZStandardCryptoEngine.cpp; sourceTree = "<group>"; };
+		8D2088E81EB7378FCAC263131179124D /* zipzap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zipzap-umbrella.h"; sourceTree = "<group>"; };
+		8E75C6ABCC88164A882896DD63A3D017 /* ZZAESDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZAESDecryptInputStream.h; path = ZipZap/ZZAESDecryptInputStream.h; sourceTree = "<group>"; };
+		8E9AA26A3A642B9CC2CA5D49FE17D6EF /* zipzap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zipzap-Info.plist"; sourceTree = "<group>"; };
+		90DC0A720F7C8ABEDD0D0BD1059C30D7 /* Pods-FPhiAuthLocal_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FPhiAuthLocal_Tests"; path = Pods_FPhiAuthLocal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9192680E0437FCE09151000532338446 /* ZZError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZError.m; path = ZipZap/ZZError.m; sourceTree = "<group>"; };
+		91EF6BB423B7F83C58051D268D43B2E0 /* Pods-FPhiAuthLocal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPhiAuthLocal_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8EF4A17A6D43C0E1BC328220154F84 /* FPhiWidgetCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FPhiWidgetCore.xcframework; path = lib/FPhiWidgetCore.xcframework; sourceTree = "<group>"; };
+		A0453360306F15D0D30543333E1E2861 /* zipzap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zipzap-dummy.m"; sourceTree = "<group>"; };
+		A34639626166D07FC4C46254AAAA6DA6 /* zipzap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zipzap-prefix.pch"; sourceTree = "<group>"; };
+		A442DA76FB4D830E255609EB2FF7C812 /* FPhiAuthLocal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPhiAuthLocal.debug.xcconfig; sourceTree = "<group>"; };
+		A530D13ED22E898F25E361E21E9A0DBA /* ZZError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZError.h; path = ZipZap/ZZError.h; sourceTree = "<group>"; };
+		A6B361B9498DB6ECE6423940AD0030ED /* zipzap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zipzap.modulemap; sourceTree = "<group>"; };
+		A6D02B560CB6CAC16FE940D4B49668B4 /* ZZFileChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannel.h; path = ZipZap/ZZFileChannel.h; sourceTree = "<group>"; };
+		AAB2C356920AE6B3EAD507BC89DF191D /* Pods-FPhiAuthLocal_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FPhiAuthLocal_Example"; path = Pods_FPhiAuthLocal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFD5739A607570B8F1FFF91D0A7E870 /* ZZNewArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZNewArchiveEntryWriter.mm; path = ZipZap/ZZNewArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		B148D10EDA27B1D7B479443C3A486D42 /* ZZStandardDecryptInputStream.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZStandardDecryptInputStream.mm; path = ZipZap/ZZStandardDecryptInputStream.mm; sourceTree = "<group>"; };
+		B472C0567D9FADEBC3EC98E3C335EB0A /* ZZChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannel.h; path = ZipZap/ZZChannel.h; sourceTree = "<group>"; };
+		B554B64D38E4C65B8E02935809D25997 /* Pods-FPhiAuthLocal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPhiAuthLocal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B63B8A1C6FAC3C95FC5F3A6C1F50ED92 /* ZZArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchive.h; path = ZipZap/ZZArchive.h; sourceTree = "<group>"; };
+		B7BDD124A4E12E9EC5AF9B6370095D35 /* Pods-FPhiAuthLocal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPhiAuthLocal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB27A87F93A342FE18F689C687766F8B /* ZZConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZConstants.m; path = ZipZap/ZZConstants.m; sourceTree = "<group>"; };
+		BBDA2767702C2669F9693E4422E3BBDB /* ZZArchiveEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZArchiveEntry.m; path = ZipZap/ZZArchiveEntry.m; sourceTree = "<group>"; };
+		C11905F038EC641E1BE7957988347572 /* ZZConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZConstants.h; path = ZipZap/ZZConstants.h; sourceTree = "<group>"; };
+		C45A9B92112358E0F3D87594AD5F8219 /* ZZDataChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataChannelOutput.h; path = ZipZap/ZZDataChannelOutput.h; sourceTree = "<group>"; };
+		C5F4F13F003FFB174F076357302A126F /* ZZDeflateOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDeflateOutputStream.h; path = ZipZap/ZZDeflateOutputStream.h; sourceTree = "<group>"; };
+		CAC8C453AE79CFE77894774582848937 /* ZZStandardDecryptInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZStandardDecryptInputStream.h; path = ZipZap/ZZStandardDecryptInputStream.h; sourceTree = "<group>"; };
+		CB7FAA2584E351D7DE5E68CB0532A20D /* Pods-FPhiAuthLocal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPhiAuthLocal_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE351AFAE63D79059091156967783BD0 /* ZZDataProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZDataProvider.h; path = ZipZap/ZZDataProvider.h; sourceTree = "<group>"; };
+		CF8C01604EC5BC40E20F10806EB55306 /* ZZChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZChannelOutput.h; path = ZipZap/ZZChannelOutput.h; sourceTree = "<group>"; };
+		D1E39F7AA70688C6D770632A5D619331 /* Pods-FPhiAuthLocal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPhiAuthLocal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2250264EDB22E50A3617C69F7F3ECFF /* ZZFileChannelOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZFileChannelOutput.h; path = ZipZap/ZZFileChannelOutput.h; sourceTree = "<group>"; };
+		D4D54F1D7DE2C31A8B4E13D59B6A56CB /* ZZInflateInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZInflateInputStream.h; path = ZipZap/ZZInflateInputStream.h; sourceTree = "<group>"; };
+		D64DF1E0407BA2B1BCF8B4DC02EA9505 /* ZZArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZArchiveEntry.h; path = ZipZap/ZZArchiveEntry.h; sourceTree = "<group>"; };
+		E0EE100FBF0C008BBDCF70CF2AA1FC92 /* Pods-FPhiAuthLocal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPhiAuthLocal_Example-resources.sh"; sourceTree = "<group>"; };
+		E58F0FD1BB48D33BC5E00CC99D861033 /* ZZScopeGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZScopeGuard.h; path = ZipZap/ZZScopeGuard.h; sourceTree = "<group>"; };
+		EE45659F59DB960E4C2F368D3F1977DB /* ZZFileChannelOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZZFileChannelOutput.m; path = ZipZap/ZZFileChannelOutput.m; sourceTree = "<group>"; };
+		EF15F4767C92B5ECD7E8C71540143533 /* ZZNewArchiveEntryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZNewArchiveEntryWriter.h; path = ZipZap/ZZNewArchiveEntryWriter.h; sourceTree = "<group>"; };
+		F02D4ABDE367FAA12EBFCC3ED3BDE713 /* ZZOldArchiveEntryWriter.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ZZOldArchiveEntryWriter.mm; path = ZipZap/ZZOldArchiveEntryWriter.mm; sourceTree = "<group>"; };
+		F0FF0616987226E42BA2175ADCF7EACC /* ZZOldArchiveEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZZOldArchiveEntry.h; path = ZipZap/ZZOldArchiveEntry.h; sourceTree = "<group>"; };
+		F31D08DBDC0426F780571E9B7D821D67 /* Pods-FPhiAuthLocal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPhiAuthLocal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F5792339976111A48DA054579208F6DB /* zipzap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zipzap.release.xcconfig; sourceTree = "<group>"; };
+		F86C25990D48CED22F041ACC67D7ED4C /* Pods-FPhiAuthLocal_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPhiAuthLocal_Example-Info.plist"; sourceTree = "<group>"; };
+		FB39236279B0157CC661784B5DAE5092 /* Pods-FPhiAuthLocal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPhiAuthLocal_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		935F5193B2536524A82D93AAAB9C2608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2802915003D9F1E8BAD44FAFF47D5CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9947E9FFC0D0EE05F5CDBB1E25D58481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A56835F9424B4E00AC72F2E0BA55A3 /* Foundation.framework in Frameworks */,
+				4AF4D7AF02A142EF2457034AF78A5642 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA7FF9A45ECF39D691E263CC8F488A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84657E91A35D89A4307E2A8E419637A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAB88224A5C6E444F84116BC10553A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C3AB980D09DCF455A75D7BC298E6C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B361B9498DB6ECE6423940AD0030ED /* zipzap.modulemap */,
+				A0453360306F15D0D30543333E1E2861 /* zipzap-dummy.m */,
+				8E9AA26A3A642B9CC2CA5D49FE17D6EF /* zipzap-Info.plist */,
+				A34639626166D07FC4C46254AAAA6DA6 /* zipzap-prefix.pch */,
+				8D2088E81EB7378FCAC263131179124D /* zipzap-umbrella.h */,
+				53C75644BDEF0350C1CC4EBBB9FA5D83 /* zipzap.debug.xcconfig */,
+				F5792339976111A48DA054579208F6DB /* zipzap.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/zipzap";
+			sourceTree = "<group>";
+		};
+		5229A15AD091D9E0151B82874C1BACB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4FC502EDE15324F912AC798B1B7C34B0 /* FPhiAuthLocal.podspec */,
+				8A763CBFF144384EB725C211B45C5BE2 /* LICENSE */,
+				846AF34D902DE47C16ACEE5534C1D682 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		64CDFB9A51331C8E7E35D827C92B96AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C9BC32D0AF49063A7641C9D1C0520 /* FPhiAuthLocal-xcframeworks.sh */,
+				A442DA76FB4D830E255609EB2FF7C812 /* FPhiAuthLocal.debug.xcconfig */,
+				55B535FA72DE29FD3824BEE3BDDF07F0 /* FPhiAuthLocal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FPhiAuthLocal";
+			sourceTree = "<group>";
+		};
+		65F9DF33E905453C4DD61B2361C76CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB2C356920AE6B3EAD507BC89DF191D /* Pods-FPhiAuthLocal_Example */,
+				90DC0A720F7C8ABEDD0D0BD1059C30D7 /* Pods-FPhiAuthLocal_Tests */,
+				16954D9B59E985A0B4F0771F465AF755 /* zipzap.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C94EEF42038BCF155C44B9816AAEDBF /* zipzap */ = {
+			isa = PBXGroup;
+			children = (
+				2C6573E7B168C2724B14462E33570DE5 /* ZipZap.h */,
+				8E75C6ABCC88164A882896DD63A3D017 /* ZZAESDecryptInputStream.h */,
+				05D271458CF1B41D200EAFE3272F37E8 /* ZZAESDecryptInputStream.mm */,
+				B63B8A1C6FAC3C95FC5F3A6C1F50ED92 /* ZZArchive.h */,
+				30F4E18D5C83634AFD87417E2E672445 /* ZZArchive.mm */,
+				D64DF1E0407BA2B1BCF8B4DC02EA9505 /* ZZArchiveEntry.h */,
+				BBDA2767702C2669F9693E4422E3BBDB /* ZZArchiveEntry.m */,
+				57E48371C780A3FF1A6645F8E82941DB /* ZZArchiveEntryWriter.h */,
+				B472C0567D9FADEBC3EC98E3C335EB0A /* ZZChannel.h */,
+				CF8C01604EC5BC40E20F10806EB55306 /* ZZChannelOutput.h */,
+				C11905F038EC641E1BE7957988347572 /* ZZConstants.h */,
+				BB27A87F93A342FE18F689C687766F8B /* ZZConstants.m */,
+				86A8E3773B8F26A8B2A987146609FCEB /* ZZDataChannel.h */,
+				0C368A47A2691729D2BB03FDD3347662 /* ZZDataChannel.m */,
+				C45A9B92112358E0F3D87594AD5F8219 /* ZZDataChannelOutput.h */,
+				6806AB78D61D698D9476744084AA5310 /* ZZDataChannelOutput.m */,
+				CE351AFAE63D79059091156967783BD0 /* ZZDataProvider.h */,
+				C5F4F13F003FFB174F076357302A126F /* ZZDeflateOutputStream.h */,
+				845169974EF2E7BC52728E9D60AF7A1F /* ZZDeflateOutputStream.m */,
+				A530D13ED22E898F25E361E21E9A0DBA /* ZZError.h */,
+				9192680E0437FCE09151000532338446 /* ZZError.m */,
+				A6D02B560CB6CAC16FE940D4B49668B4 /* ZZFileChannel.h */,
+				4A3358C60FF2E26197160642AB15D733 /* ZZFileChannel.m */,
+				D2250264EDB22E50A3617C69F7F3ECFF /* ZZFileChannelOutput.h */,
+				EE45659F59DB960E4C2F368D3F1977DB /* ZZFileChannelOutput.m */,
+				4847DE30D942DAECFED4D5AEC02E3A69 /* ZZHeaders.h */,
+				D4D54F1D7DE2C31A8B4E13D59B6A56CB /* ZZInflateInputStream.h */,
+				03E23582BF5E538433E7352C38D40D1B /* ZZInflateInputStream.m */,
+				431EA4B6DED3B0A82B3E5EF11BC64251 /* ZZNewArchiveEntry.h */,
+				8BFA97F9BF17063498D107E14B286593 /* ZZNewArchiveEntry.mm */,
+				EF15F4767C92B5ECD7E8C71540143533 /* ZZNewArchiveEntryWriter.h */,
+				AFFD5739A607570B8F1FFF91D0A7E870 /* ZZNewArchiveEntryWriter.mm */,
+				F0FF0616987226E42BA2175ADCF7EACC /* ZZOldArchiveEntry.h */,
+				6AAC780A65FD2324A5F6D911433E47C6 /* ZZOldArchiveEntry.mm */,
+				4F78E09D61040D3441E3337C5ADB2EA5 /* ZZOldArchiveEntryWriter.h */,
+				F02D4ABDE367FAA12EBFCC3ED3BDE713 /* ZZOldArchiveEntryWriter.mm */,
+				E58F0FD1BB48D33BC5E00CC99D861033 /* ZZScopeGuard.h */,
+				8CB9E1047AD48F200357937EB679F805 /* ZZStandardCryptoEngine.cpp */,
+				016434E4899CCB8E2B9D4A83E9FD1CCD /* ZZStandardCryptoEngine.h */,
+				CAC8C453AE79CFE77894774582848937 /* ZZStandardDecryptInputStream.h */,
+				B148D10EDA27B1D7B479443C3A486D42 /* ZZStandardDecryptInputStream.mm */,
+				78C92CEF6D781A09E51AE264D729463D /* ZZStoreOutputStream.h */,
+				6C24FFA5270637959878784D56D7C862 /* ZZStoreOutputStream.m */,
+				16C3AB980D09DCF455A75D7BC298E6C9 /* Support Files */,
+			);
+			path = zipzap;
+			sourceTree = "<group>";
+		};
+		6F7B5BDB1F3AC23FEE41871690AD5E68 /* Pods-FPhiAuthLocal_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67667989A2AB83313655AAE0E372D28C /* Pods-FPhiAuthLocal_Tests.modulemap */,
+				2A1C068194B5CCAC279E6B670933F2EA /* Pods-FPhiAuthLocal_Tests-acknowledgements.markdown */,
+				D1E39F7AA70688C6D770632A5D619331 /* Pods-FPhiAuthLocal_Tests-acknowledgements.plist */,
+				802B4F095FE3EDE3B101245367E2FA6E /* Pods-FPhiAuthLocal_Tests-dummy.m */,
+				1B437F9D5A4E3C02C262DE23D0C89A20 /* Pods-FPhiAuthLocal_Tests-Info.plist */,
+				B554B64D38E4C65B8E02935809D25997 /* Pods-FPhiAuthLocal_Tests-umbrella.h */,
+				43530FB9011F9911E37EA60A5C9E3E2F /* Pods-FPhiAuthLocal_Tests.debug.xcconfig */,
+				FB39236279B0157CC661784B5DAE5092 /* Pods-FPhiAuthLocal_Tests.release.xcconfig */,
+			);
+			name = "Pods-FPhiAuthLocal_Tests";
+			path = "Target Support Files/Pods-FPhiAuthLocal_Tests";
+			sourceTree = "<group>";
+		};
+		7D4818C6C6DD44A93F0AD4E51BCF540E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				587B1ED468EF32B766B6ADE144C6EA54 /* FPBExtractoriOS.xcframework */,
+				9F8EF4A17A6D43C0E1BC328220154F84 /* FPhiWidgetCore.xcframework */,
+				8816ADCDB1FF7DF5826E54DBD651BDD0 /* FPhiWidgetSelphi.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ADBDB8E3C982D41B94FBA06A5435E10 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D088C14BF5778A1F9A7F96072EEBF1B /* FPhiAuthLocal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8D088C14BF5778A1F9A7F96072EEBF1B /* FPhiAuthLocal */ = {
+			isa = PBXGroup;
+			children = (
+				4474901C1679B9255E5BC1C0621C0386 /* fphi-selphi-widget-resources-selphi-live-1.2.zip */,
+				7D4818C6C6DD44A93F0AD4E51BCF540E /* Frameworks */,
+				5229A15AD091D9E0151B82874C1BACB4 /* Pod */,
+				64CDFB9A51331C8E7E35D827C92B96AA /* Support Files */,
+			);
+			name = FPhiAuthLocal;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F5812AD02E073C3051B38B022FAB472 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0088986F7DA11F23630C113EBEC5A /* Pods-FPhiAuthLocal_Example */,
+				6F7B5BDB1F3AC23FEE41871690AD5E68 /* Pods-FPhiAuthLocal_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9762FE75DE2BE732CE39B59FF23EC639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C94EEF42038BCF155C44B9816AAEDBF /* zipzap */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2DAB88224A5C6E444F84116BC10553A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */,
+				22AD885D3D57E81A6E96E0E72504B6C8 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6A0088986F7DA11F23630C113EBEC5A /* Pods-FPhiAuthLocal_Example */ = {
+			isa = PBXGroup;
+			children = (
+				28D4BBE49A6EDA73133ED6288535443C /* Pods-FPhiAuthLocal_Example.modulemap */,
+				B7BDD124A4E12E9EC5AF9B6370095D35 /* Pods-FPhiAuthLocal_Example-acknowledgements.markdown */,
+				672D1D3CA5DD9EA6715E20FFA6D239BC /* Pods-FPhiAuthLocal_Example-acknowledgements.plist */,
+				91EF6BB423B7F83C58051D268D43B2E0 /* Pods-FPhiAuthLocal_Example-dummy.m */,
+				CB7FAA2584E351D7DE5E68CB0532A20D /* Pods-FPhiAuthLocal_Example-frameworks.sh */,
+				F86C25990D48CED22F041ACC67D7ED4C /* Pods-FPhiAuthLocal_Example-Info.plist */,
+				E0EE100FBF0C008BBDCF70CF2AA1FC92 /* Pods-FPhiAuthLocal_Example-resources.sh */,
+				4551315D1711F5DB8993413954C1251F /* Pods-FPhiAuthLocal_Example-umbrella.h */,
+				504B2C8F835AEBF1011CD4B454CEDBD7 /* Pods-FPhiAuthLocal_Example.debug.xcconfig */,
+				F31D08DBDC0426F780571E9B7D821D67 /* Pods-FPhiAuthLocal_Example.release.xcconfig */,
+			);
+			name = "Pods-FPhiAuthLocal_Example";
+			path = "Target Support Files/Pods-FPhiAuthLocal_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8ADBDB8E3C982D41B94FBA06A5435E10 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9762FE75DE2BE732CE39B59FF23EC639 /* Pods */,
+				65F9DF33E905453C4DD61B2361C76CD5 /* Products */,
+				8F5812AD02E073C3051B38B022FAB472 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2487C5991E4A55E1F33ACF8937B43123 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ECBCA9B3935A654F6F34A3C1894EE9 /* Pods-FPhiAuthLocal_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3799534FA7BAD1D9D7BEEEC97F57C47A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21229C0EDCD4DC53E6D0A5162541273 /* ZipZap.h in Headers */,
+				2F29A18F10E81B8AAE397C604C4EA798 /* zipzap-umbrella.h in Headers */,
+				74E16FC06876EA8CFEBADBEE2A2EF818 /* ZZAESDecryptInputStream.h in Headers */,
+				DAB65EE7BE5D1A6724E5D78C06B4D50C /* ZZArchive.h in Headers */,
+				49C90508AE78C6500593609B4D5DD26B /* ZZArchiveEntry.h in Headers */,
+				B2FCCAA346C1B27D881C96EF5FCA9273 /* ZZArchiveEntryWriter.h in Headers */,
+				EE78BF4E48D4412653770F08BC447EE5 /* ZZChannel.h in Headers */,
+				D36D273E708EA4FFB4387D9F88C3EB80 /* ZZChannelOutput.h in Headers */,
+				866BF855BD3B67E221B88C1212659743 /* ZZConstants.h in Headers */,
+				134BCFA51C6855E0BA2B76F299A62C1C /* ZZDataChannel.h in Headers */,
+				892C03C12C454DA478D151E38BA20C87 /* ZZDataChannelOutput.h in Headers */,
+				BC12A8F62A0476110DA2C752CD6983CF /* ZZDataProvider.h in Headers */,
+				757C7C7616F222B6663D9C8129330250 /* ZZDeflateOutputStream.h in Headers */,
+				BA25D2C96E74BFF947D476185F29FC9A /* ZZError.h in Headers */,
+				14C8EFB1594FCF91B6CD6AA3C69439AD /* ZZFileChannel.h in Headers */,
+				4BE35C5FCF37B2A372DF54C6D5C46103 /* ZZFileChannelOutput.h in Headers */,
+				5450BA290AE6CE171C3AE189901B44CA /* ZZHeaders.h in Headers */,
+				A339434092638A29554E3BCE3CE9B249 /* ZZInflateInputStream.h in Headers */,
+				F1A6EF0880E7450E34DD55D769BA390B /* ZZNewArchiveEntry.h in Headers */,
+				E8DFDE82B4BEA16BADC981F4547EC843 /* ZZNewArchiveEntryWriter.h in Headers */,
+				38178F3F4BB06D965125AD8A4AFB7CEA /* ZZOldArchiveEntry.h in Headers */,
+				DC098BF9E318D62B070FB54929B7B67C /* ZZOldArchiveEntryWriter.h in Headers */,
+				FC028778F2F0E561E89C14D42C3EDDD8 /* ZZScopeGuard.h in Headers */,
+				96F96B9DC4C5907A52F95B1B4F292026 /* ZZStandardCryptoEngine.h in Headers */,
+				8C8244376E4AB75A0149DFCCE8097AC1 /* ZZStandardDecryptInputStream.h in Headers */,
+				07E5EA0F0C82F28C93A61EBFE6D9F78F /* ZZStoreOutputStream.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F088454CEC2734F40032AE544FD31503 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8515751C1F43D927CDBFA7D2B5FB611B /* Pods-FPhiAuthLocal_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17041C30039925B1FB94D32FBAAF193C /* Pods-FPhiAuthLocal_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BEF9E1A92FDE4992A8FB20EC19240B /* Build configuration list for PBXNativeTarget "Pods-FPhiAuthLocal_Tests" */;
+			buildPhases = (
+				F088454CEC2734F40032AE544FD31503 /* Headers */,
+				2E0FA6978725E8C202D3C3D9B916877D /* Sources */,
+				B2BA7FF9A45ECF39D691E263CC8F488A /* Frameworks */,
+				E0C97C931F432093C9AECC36C04014FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E1AD7871B4BBCB35754669AFA1599D /* PBXTargetDependency */,
+			);
+			name = "Pods-FPhiAuthLocal_Tests";
+			productName = Pods_FPhiAuthLocal_Tests;
+			productReference = 90DC0A720F7C8ABEDD0D0BD1059C30D7 /* Pods-FPhiAuthLocal_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		94C8AFA79EF84B5B5B78BEE767301F5A /* zipzap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDED10D7414875720BFD2E42BF74C4FF /* Build configuration list for PBXNativeTarget "zipzap" */;
+			buildPhases = (
+				3799534FA7BAD1D9D7BEEEC97F57C47A /* Headers */,
+				7A156808C969D69DF6BDA91BF1572923 /* Sources */,
+				9947E9FFC0D0EE05F5CDBB1E25D58481 /* Frameworks */,
+				607CB426116AEF0CEFF4EEBD452E4ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zipzap;
+			productName = zipzap;
+			productReference = 16954D9B59E985A0B4F0771F465AF755 /* zipzap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5E5D389679EB8D6632B254234B07C9E /* Pods-FPhiAuthLocal_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D561F7AD17558F88DFF33DED91F2973A /* Build configuration list for PBXNativeTarget "Pods-FPhiAuthLocal_Example" */;
+			buildPhases = (
+				2487C5991E4A55E1F33ACF8937B43123 /* Headers */,
+				1523E930A7B11FA361E1D953BAAD6057 /* Sources */,
+				935F5193B2536524A82D93AAAB9C2608 /* Frameworks */,
+				8D6AB97A6DB1FBDD98FF7AFF95029609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45009F102697DF3212DE37D2F10B5BEA /* PBXTargetDependency */,
+				A0C1C2FF96C597F6F11E90A43479CD1D /* PBXTargetDependency */,
+			);
+			name = "Pods-FPhiAuthLocal_Example";
+			productName = Pods_FPhiAuthLocal_Example;
+			productReference = AAB2C356920AE6B3EAD507BC89DF191D /* Pods-FPhiAuthLocal_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65F9DF33E905453C4DD61B2361C76CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A24A00C4039C1C904AF689DE7601399 /* FPhiAuthLocal */,
+				A5E5D389679EB8D6632B254234B07C9E /* Pods-FPhiAuthLocal_Example */,
+				17041C30039925B1FB94D32FBAAF193C /* Pods-FPhiAuthLocal_Tests */,
+				94C8AFA79EF84B5B5B78BEE767301F5A /* zipzap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607CB426116AEF0CEFF4EEBD452E4ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6AB97A6DB1FBDD98FF7AFF95029609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C97C931F432093C9AECC36C04014FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14BC2E32CDA38D475302D87AD538327B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/FPhiAuthLocal/FPhiAuthLocal-xcframeworks.sh",
+				"${PODS_ROOT}/../../lib/FPhiWidgetSelphi.xcframework",
+				"${PODS_ROOT}/../../lib/FPhiWidgetCore.xcframework",
+				"${PODS_ROOT}/../../lib/FPBExtractoriOS.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FPhiAuthLocal/FPhiWidgetSelphi.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FPhiAuthLocal/FPhiWidgetCore.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FPhiAuthLocal/FPBExtractoriOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FPhiAuthLocal/FPhiAuthLocal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1523E930A7B11FA361E1D953BAAD6057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8CF7BDD009F817380E84220663FDCC /* Pods-FPhiAuthLocal_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0FA6978725E8C202D3C3D9B916877D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDCE563D7B8A61FAE209837B4B8A6B5 /* Pods-FPhiAuthLocal_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A156808C969D69DF6BDA91BF1572923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729DB51239CA4B99ECB03DB1EF2B8556 /* zipzap-dummy.m in Sources */,
+				2DB98023CA345C4E06A3302BBF42428E /* ZZAESDecryptInputStream.mm in Sources */,
+				31EFB283DEAC295A12680DC2E24FDBC8 /* ZZArchive.mm in Sources */,
+				D676B660EBAE655D4988B33004058CB1 /* ZZArchiveEntry.m in Sources */,
+				E66A84AEC220BE8F7872A435130A23ED /* ZZConstants.m in Sources */,
+				4FE883F062AD3BCDEDBC71F08E678D90 /* ZZDataChannel.m in Sources */,
+				368EB28C7C70E24F11D92A5F7F44CA4F /* ZZDataChannelOutput.m in Sources */,
+				6780D127C5448673A60BADE53B2C841F /* ZZDeflateOutputStream.m in Sources */,
+				D9B7558A5D9632577ADF6BAACA8FC44E /* ZZError.m in Sources */,
+				D2CC24B6B4884EE877EC2B424FFCD083 /* ZZFileChannel.m in Sources */,
+				7490BFE19F996C5687913014040B7929 /* ZZFileChannelOutput.m in Sources */,
+				653AD3B589BB561624E96328308BEE6A /* ZZInflateInputStream.m in Sources */,
+				965365073853894AEF58F3AE6E1D2E25 /* ZZNewArchiveEntry.mm in Sources */,
+				18BC2CBD309671544EE3E8F038EAAACE /* ZZNewArchiveEntryWriter.mm in Sources */,
+				633F2F1EA6DE100F624FF25381577133 /* ZZOldArchiveEntry.mm in Sources */,
+				ADE05E1D97230EE5D9698CEBE06D8385 /* ZZOldArchiveEntryWriter.mm in Sources */,
+				81C2216A52D7383A0DF591BC99FA3749 /* ZZStandardCryptoEngine.cpp in Sources */,
+				CB686D699F79E361E287B3E6F8256198 /* ZZStandardDecryptInputStream.mm in Sources */,
+				94CEE24CD7B1B8BC12AE4D2DB7106459 /* ZZStoreOutputStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45009F102697DF3212DE37D2F10B5BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPhiAuthLocal;
+			target = 3A24A00C4039C1C904AF689DE7601399 /* FPhiAuthLocal */;
+			targetProxy = CB94224985C837F91824E5A4FBB8FBE4 /* PBXContainerItemProxy */;
+		};
+		A0C1C2FF96C597F6F11E90A43479CD1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zipzap;
+			target = 94C8AFA79EF84B5B5B78BEE767301F5A /* zipzap */;
+			targetProxy = B69326C48EB4D6B069356C5CF87B4CA3 /* PBXContainerItemProxy */;
+		};
+		A6F855C5EE1BA20D2356C1E0DE9346DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zipzap;
+			target = 94C8AFA79EF84B5B5B78BEE767301F5A /* zipzap */;
+			targetProxy = 534BEEFBA376B5573B68CA45AFDA649F /* PBXContainerItemProxy */;
+		};
+		E5E1AD7871B4BBCB35754669AFA1599D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FPhiAuthLocal_Example";
+			target = A5E5D389679EB8D6632B254234B07C9E /* Pods-FPhiAuthLocal_Example */;
+			targetProxy = 789945320D4D6EA6CB7FDC63D14FD1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C27AED7146298331C114CC8711D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43530FB9011F9911E37EA60A5C9E3E2F /* Pods-FPhiAuthLocal_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPhiAuthLocal_Tests/Pods-FPhiAuthLocal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPhiAuthLocal_Tests/Pods-FPhiAuthLocal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0906242BBC98B6EDE6E07B206BFF6FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB39236279B0157CC661784B5DAE5092 /* Pods-FPhiAuthLocal_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPhiAuthLocal_Tests/Pods-FPhiAuthLocal_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPhiAuthLocal_Tests/Pods-FPhiAuthLocal_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0BC912FB7E11AD917668A007787FD88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31D08DBDC0426F780571E9B7D821D67 /* Pods-FPhiAuthLocal_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPhiAuthLocal_Example/Pods-FPhiAuthLocal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPhiAuthLocal_Example/Pods-FPhiAuthLocal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		302AC5DB7873C94F2452499EFCBBC539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504B2C8F835AEBF1011CD4B454CEDBD7 /* Pods-FPhiAuthLocal_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FPhiAuthLocal_Example/Pods-FPhiAuthLocal_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FPhiAuthLocal_Example/Pods-FPhiAuthLocal_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F37D58024905BFADC4AE7013735DF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A442DA76FB4D830E255609EB2FF7C812 /* FPhiAuthLocal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BEB444EBB7750C86410E73B24FF3A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B535FA72DE29FD3824BEE3BDDF07F0 /* FPhiAuthLocal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C54A4425A77BF16B26E819FE7FA60A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C75644BDEF0350C1CC4EBBB9FA5D83 /* zipzap.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zipzap/zipzap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zipzap/zipzap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zipzap/zipzap.modulemap";
+				PRODUCT_MODULE_NAME = zipzap;
+				PRODUCT_NAME = zipzap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC123A5FF6F8D0556AC989271B49CF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5792339976111A48DA054579208F6DB /* zipzap.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zipzap/zipzap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zipzap/zipzap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zipzap/zipzap.modulemap";
+				PRODUCT_MODULE_NAME = zipzap;
+				PRODUCT_NAME = zipzap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BEF9E1A92FDE4992A8FB20EC19240B /* Build configuration list for PBXNativeTarget "Pods-FPhiAuthLocal_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C27AED7146298331C114CC8711D448 /* Debug */,
+				0906242BBC98B6EDE6E07B206BFF6FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FF2D6C215A0DF68E9BF0B024C87C74 /* Build configuration list for PBXAggregateTarget "FPhiAuthLocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F37D58024905BFADC4AE7013735DF11 /* Debug */,
+				7BEB444EBB7750C86410E73B24FF3A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D561F7AD17558F88DFF33DED91F2973A /* Build configuration list for PBXNativeTarget "Pods-FPhiAuthLocal_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302AC5DB7873C94F2452499EFCBBC539 /* Debug */,
+				0BC912FB7E11AD917668A007787FD88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDED10D7414875720BFD2E42BF74C4FF /* Build configuration list for PBXNativeTarget "zipzap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54A4425A77BF16B26E819FE7FA60A4 /* Debug */,
+				EC123A5FF6F8D0556AC989271B49CF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
